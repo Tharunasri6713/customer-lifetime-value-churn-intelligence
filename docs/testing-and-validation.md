@@ -26,8 +26,8 @@ Run each test and record the actual result.
 
 | Test ID | Test | Expected behavior | Actual status |
 |---|---|---|---|
-| T01 | Open the deployed Streamlit URL | Application loads without an error | Pending verification |
-| T02 | Change the customers-targeted input | Scenario results update | Pending verification |
+| T01 | Open the deployed Streamlit URL | Application loads without an error | Passed — app loaded successfully |
+| T02 | Change the customers-targeted input | Scenario results update | Passed — doubling customers from 500 to 1,000 doubled the displayed estimates; restoring 500 returned the original values |
 | T03 | Change the churn-reduction assumption | Estimated retained customers update | Pending verification |
 | T04 | Change the campaign offer cost | Campaign cost and net benefit update | Pending verification |
 | T05 | Change profit margin or retained-value period | Estimated benefit and ROI update | Pending verification |
