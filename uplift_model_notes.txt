@@ -1,0 +1,7 @@
+Uplift Modeling - Project Notes
+================================
+Method: CausalML BaseTRegressor (T-learner) with LightGBM.
+Dataset: Simulated treatment/control experiment based on the IBM Telco churn dataset.
+Outcome: SimulatedChurnOutcome.
+Important limitation: Treatment outcomes are synthetic and do not represent actual retention campaign results.
+Estimated treatment effects are exploratory and should not be interpreted as validated causal business impact.
