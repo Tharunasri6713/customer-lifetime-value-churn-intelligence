@@ -80,3 +80,15 @@ Update this section after executing the tests.
 ## 9. Conclusion
 
 This document provides a structured validation plan for the project's machine learning artifacts and interactive application. Final test statuses should be updated only after the corresponding checks have been performed.
+
+## Additional Manual Testing Results
+
+| Test | Action | Observed result | Status |
+|---|---|---|---|
+| T03 — Churn reduction | Increased assumed relative churn reduction from 10% to 20% | Estimated customers retained increased from 13.5 to 27.0 | Passed |
+| T04 — Offer cost | Increased offer cost per customer from ₹10 to ₹20 | Campaign cost increased from ₹5,000 to ₹10,000; estimated net benefit changed to -₹6,598 | Passed |
+| T05 — Profit margin | Increased profit margin from 30% to 40% | Estimated net benefit changed to -₹5,464 and illustrative ROI to -54.6% | Passed |
+| T06 — Reasonable inputs | Not yet independently verified | Pending | Pending |
+| T07 — Disclaimer visibility | Checked the deployed application | Disclaimer was visible and explained that campaign assumptions are not validated predictions | Passed |
+
+**Note:** These are manual checks of the interactive application's displayed calculations. The retention campaign outcomes remain hypothetical and are not validated real-world predictions.
