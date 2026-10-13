@@ -28,11 +28,11 @@ Run each test and record the actual result.
 |---|---|---|---|
 | T01 | Open the deployed Streamlit URL | Application loads without an error | Passed — app loaded successfully |
 | T02 | Change the customers-targeted input | Scenario results update | Passed — doubling customers from 500 to 1,000 doubled the displayed estimates; restoring 500 returned the original values |
-| T03 | Change the churn-reduction assumption | Estimated retained customers update | Pending verification |
-| T04 | Change the campaign offer cost | Campaign cost and net benefit update | Pending verification |
-| T05 | Change profit margin or retained-value period | Estimated benefit and ROI update | Pending verification |
-| T06 | Use different reasonable input values | Calculations remain consistent with the assumptions | Pending verification |
-| T07 | Review the application's disclaimer | Hypothetical assumptions and limitations are explained | Pending verification |
+| T03 | Change the churn-reduction assumption | Estimated retained customers update | Passed — increasing relative churn reduction from 10% to 20% increased estimated retained customers from 13.5 to 27.0 |
+| T04 | Change the campaign offer cost | Campaign cost and net benefit update | Passed — increasing offer cost from ₹10 to ₹20 increased campaign cost from ₹5,000 to ₹10,000; estimated net benefit changed to -₹6,598 |
+| T05 | Change profit margin or retained-value period | Estimated benefit and ROI update | Passed — increasing profit margin from 30% to 40% changed estimated net benefit to -₹5,464 and illustrative ROI to -54.6% |
+| T06 | Restore reasonable baseline inputs | Application displays the expected results without errors | Passed — 13.5 estimated customers retained, ₹5,000 campaign cost, -₹3,299 estimated net benefit, and -66.0% illustrative ROI |
+| T07 | Review the application's disclaimer | Hypothetical assumptions and limitations are explained | Passed — disclaimer confirms that campaign assumptions are not validated predictions of actual campaign performance |
 
 ## 4. Calculation Validation
 
